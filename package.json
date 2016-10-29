@@ -1,7 +1,7 @@
 {
-  "name": "html-css-starter",
+  "name": "dropbox",
   "version": "1.0.0",
-  "description": "Starter for html+sass+js project",
+  "description": "drop box concept",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
