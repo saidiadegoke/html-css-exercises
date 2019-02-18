@@ -1,7 +1,10 @@
 body {
   background-color: white; }
 
-.toto {
+.text-center {
+  text-align: center; }
+
+.todo {
   background-color: blue;
   color: green;
   transition: all 0.2s ease-in-out;
@@ -9,7 +12,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-  .toto:hover {
+  .todo:hover {
     background-color: red; }
 
 h1 {
