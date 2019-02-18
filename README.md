@@ -3,7 +3,7 @@ Project starter for HTML and CSS. Follow the following steps to get started:
 
 1. Clone the repository
 ```
-git clone https://github.com/saidiadegoke/html-css.git
+git clone https://github.com/saidiadegoke/html-css-exercises.git
 ```
 2. Open the command prompt and go to the project's root folder
 ```
