@@ -1,0 +1,244 @@
+
+@font-face {
+    src: url("../Qualio.ttf");
+    font-family: font1;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(128, 128, 128, 0.2);
+    font-family:font1;
+    font-size: 20px;
+}
+
+#begining{
+    width: 55%;
+    margin: 0 auto;
+}
+
+#smashing{
+    margin: 3px 0;
+    margin-top: 30px;
+    margin-bottom: -2px;
+    font-family: font1;
+
+}
+
+.colour{
+    color: red;
+}
+#flex{
+ 
+    display: flex;
+    flex-direction: row;
+    background: black;
+    border-radius: 3px;
+    margin-top: 18px;
+    
+}
+
+#flex a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+}
+
+#flex .active a{
+    background: maroon;
+}
+#flex div {
+ 
+    color: white;
+}
+
+#firstSection{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+
+#firstSection #image{
+    width: 245PX;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    padding: 0 15px;
+    margin: 19px 15px 15px 0;
+    height: 100px;
+}
+
+.width{
+    width: 100%;
+}
+
+.no-margin{
+    margin: unset
+}
+
+#firstSection small{
+    margin-top: 15px;
+    display: block;
+}
+
+#secondSection{
+    background: white;
+    border-radius: 5px;
+}
+
+#secondSection .coloumn{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.left{
+   
+    margin: 0px 0px 0px 10px;
+
+
+}
+
+.right{
+    margin: 0 0 0 68px;
+}
+
+.onset{
+    margin: unset;
+    margin-top: 15px;
+}
+
+/* #thirdSection{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#thirdSection #roll1{
+    margin-left: -38px;
+    margin-top: -9px;
+    list-style: none;
+
+}
+
+ #thirdSection .subRoll{
+
+    margin-left: 43px;
+    margin-top: 33px;
+    margin-bottom: -8px;
+}
+
+
+#thirdSection .list{
+    list-style: none;
+    margin-left: -8px;
+    font-size: 14px;
+}
+
+#thirdSection #roll2{
+    margin-top: 39px;
+    
+    
+}
+
+#thirdSection #roll3{
+    margin-top: 35px;
+    margin-left: 16px;
+}
+
+#thirdSection #subRoll2{
+margin-left: 45px;
+margin-top: 35px;
+}
+
+#thirdSection #roll4{
+    margin-left: 20px;
+    margin-top: -7px;
+}
+
+#thirdSection li{
+    padding: 8px;
+} */
+
+#thirdSection{
+    margin-top: 20px;
+}
+
+#thirdSection #sectionHeading{
+    display: grid;
+    grid-template-columns: 8.8fr 2fr;
+    margin: unset;
+}
+
+/* .push{
+    margin-left: auto;
+} */
+#sectionHeading{
+    font-size: 30px;
+}
+#sectionHeading .push{
+    padding-right: 23px;
+}
+
+#thirdSection #list {
+    display: grid;
+    grid-template-columns: 2fr 3.8fr 3fr 2fr;
+    grid-row-gap: 10px;
+    
+}
+
+#list ul{
+    list-style: none;
+    margin-top: 5px;
+    padding: unset
+    
+}
+
+#list li{
+    padding: 5px;
+}
+
+#lastSection{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* #lastSection{
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    border-radius: 3px;
+} */
+
+#lastSection .image{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer{
+    width: 25%
+}
+
+#lastSection .onset2{
+    margin-top: -8px;
+}
+
+#side{
+    text-align: right;
+    margin-top: 35px;
+}
+
+.fontsize2{
+    font-size: 23px
+}
